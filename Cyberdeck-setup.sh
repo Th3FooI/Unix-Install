@@ -290,7 +290,7 @@ setup ()
   sudo apt-get update
   utilities
   speedtest-install
-  sudo apt-get install kali-tools-hardware kali-tools-fuzzing kali-tools-802-11 kali-tools-bluetooth kali-tools-rfid kali-tools-sdr kali-tools-information-gathering kali-tools-vulnerability kali-tools-web kali-tools-database kali-tools-passwords kali-tools-wireless kali-tools-exploitation kali-tools-social-engineering kali-tools-sniffing-spoofing kali-tools-post-exploitation kali-linux-arm
+  sudo apt-get install kali-tools-hardware kali-tools-fuzzing kali-tools-802-11 kali-tools-bluetooth kali-tools-rfid kali-tools-sdr kali-tools-information-gathering kali-tools-vulnerability kali-tools-web kali-tools-database kali-tools-passwords kali-tools-wireless kali-tools-exploitation kali-tools-social-engineering kali-tools-sniffing-spoofing kali-tools-post-exploitation 
   
   if [ "$?" -ne "0" ]; then
         echo "install failed :( try checking your repositories, more likely, it's a bug in this script."
