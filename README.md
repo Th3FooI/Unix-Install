@@ -29,7 +29,7 @@ the setup script is here:
 
 ```
 
-git clone https://github.com/Th3FooI/Unix-Install
+git clone https://github.com/Th3FooI/Unix-Install.git
 cd Unix-Install
 chmod a+x ./Cyberdeck-setup.sh
 sudo ./Cyberdeck-setup.sh
