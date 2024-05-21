@@ -158,7 +158,7 @@ utilities ()
     echo "Do you wish to install these system utilities?"
     select yn in "Yes" "No"; do
      case $yn in
-        Yes ) sudo apt-get install btop mc mono-devel ;;
+        Yes ) sudo apt-get install btop mc mono-devel ; break;;
         No ) break;;
         esac
     done
